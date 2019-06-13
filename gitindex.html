@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+
+
+{% block style %}
+  {{ super() }}
+
+{% endblock style %}
+
+
+
+{% block event_input %}
+  {{ super() }}
+
+{% endblock event_input %}
+
+
+
+{% block content %}
+
+  {{ super() }}
+
+  {% include "chunks/issues_table.html" %}
+
+{% endblock content %}
+
+{% block footer %}
+  {{ super() }}
+
+  {% include "chunks/issues_table_script.html" %}
+
+
+{% endblock footer %}

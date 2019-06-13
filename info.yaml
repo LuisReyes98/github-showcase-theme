@@ -1,0 +1,5 @@
+name: github-showcase-theme
+parents:
+  - pitch-deck #the parent theme goes first
+  - github-api-theme
+  - base-theme  #even though studio-theme has base theme as parent , base theme must be added in order for this theme to access the templates that exists within base-theme  
